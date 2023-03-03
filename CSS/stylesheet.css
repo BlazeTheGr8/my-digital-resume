@@ -6,18 +6,23 @@
     box-sizing: border-box;
 }
 
-.header {
-    background-color:#05386B;
-    border-radius: 10px;
+header {
+    background-color: #05386B;
+    margin: 0% 10%;
+    padding-bottom: 10%;
+    border-radius: 10px 10px 0px 0px;
     color: #5CDB95;
     text-align: center;
-    padding: 3%;
+}
+
+.header {
     margin: 0% 10%;
 }
 
 .image {
     border-radius: 50%;
     border: 2px solid rgb(186, 180, 180);
+    float: right;
 }
 
 
@@ -61,4 +66,56 @@ h3{
     margin: 0% 10%;
     background-color: aquamarine;
     padding: 6%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.menu a:hover {
+    background-color: #1864af;
+}
+
+nav {
+    background-color: #05386B;
+    margin: 0% 10%;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    background-color: #05386B;
+    margin: -5% 10% 0% 10%;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    padding: 0.5% 0% 5% 0%;
+    color: #5CDB95;
+
+}
+
+.education {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.UWC-desc {
+    margin-bottom: 10%;
+}
+
+.experience {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mrd-desc {margin-bottom: 10%;}
+
+h3 {
+    padding-right: 15%;
 }
