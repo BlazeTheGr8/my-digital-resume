@@ -1,121 +1,136 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-    background-color: #05386B;
-    margin: 0% 10%;
-    padding-bottom: 10%;
-    border-radius: 10px 10px 0px 0px;
-    color: #5CDB95;
-    text-align: center;
+  background-color: #05386b;
+  margin: 0% 10%;
+  padding-bottom: 3%;
+  border-radius: 10px 10px 0px 0px;
+  color: #5cdb95;
+  text-align: center;
 }
 
 .header {
     margin: 0% 10%;
+    display: flex;
+    padding-top: 5%;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.headertxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .image {
-    border-radius: 50%;
-    border: 2px solid rgb(186, 180, 180);
-    float: right;
+  border-radius: 50%;
+  border: 2px solid rgb(186, 180, 180);
 }
 
-
 a:link {
-    color: #EDF5E1;
-    text-shadow: #05386B 1px 2px 3px;
+  color: #edf5e1;
+  text-shadow: #05386b 1px 2px 3px;
 }
 
 a:visited {
-    color: #EDF5E1;
+  color: #edf5e1;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul.menu {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 body {
-    background: rgb(0, 0, 0);
-    font-family: 'Roboto', sans-serif;
+  background: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
 }
 
 h2 {
-    margin: 5% 0% 3% 0% !important;
+  margin: 0% 0% 3% 0% !important;
+  padding-top: 5%;
 }
 
-h1{
-    text-shadow: #ffffff 2px 1px 1px;
-    letter-spacing:5px;
+h1 {
+  text-shadow: #ffffff 2px 1px 1px;
+  letter-spacing: 5px;
 }
 
-h3{
-    margin:1% 0%;
+h3 {
+  margin: 1% 0%;
 }
 
-.container{
-    display: block;
-    margin: 0% 10%;
-    background-color: aquamarine;
-    padding: 6%;
+.container {
+  display: block;
+  margin: 0% 10%;
+  background-color: aquamarine;
+  padding: 6%;
 }
 
 .menu {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .menu a {
-    padding: 10px;
-    margin-bottom: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .menu a:hover {
-    background-color: #1864af;
+  background-color: #1864af;
 }
 
 nav {
-    background-color: #05386B;
-    margin: 0% 10%;
-    padding-bottom: 10px;
-    position: sticky;
-    top: 0;
+  background-color: #05386b;
+  margin: 0% 10%;
+  padding-bottom: 10px;
+  position: sticky;
+  top: 0;
 }
 
 footer {
-    background-color: #05386B;
-    margin: -5% 10% 0% 10%;
-    border-radius: 0px 0px 10px 10px;
-    text-align: center;
-    padding: 0.5% 0% 5% 0%;
-    color: #5CDB95;
-
+  background-color: #05386b;
+  margin: -5% 10% 0% 10%;
+  border-radius: 0px 0px 10px 10px;
+  text-align: center;
+  padding: 0% 0% 5% 0%;
+  color: #5cdb95;
 }
 
 .education {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .UWC-desc {
-    margin-bottom: 10%;
+  margin-bottom: 10%;
 }
 
 .experience {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.mrd-desc {margin-bottom: 10%;}
+.mrd-desc {
+  margin-bottom: 10%;
+}
 
 h3 {
-    padding-right: 15%;
+  padding-right: 15%;
 }
+
+article  ul {
+    margin-bottom: 5%;
+}
+
