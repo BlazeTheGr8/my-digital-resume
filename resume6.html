@@ -90,10 +90,13 @@
 
     <footer>
         <h2 id="contact">Contact Details</h2>
-        <form>
+        <form action="https://formsubmit.co/c281ca607a48c5611a308b266b968697" method="POST">
             <fieldset>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="name@domain.com" required>
 
             <label for="subject">Subject:</label>
             <select required>
@@ -102,7 +105,9 @@
                 <option>Website Feedback</option>
             </select>
             <textarea placeholder="Your Message..."></textarea>
-            <input type="submit" value="Submit" name="submit">  
+            <input type="submit" value="Submit" name="submit"> 
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/resume6.html">
+ 
             </fieldset>
         </form>
         <p><a href="https://www.linkedin.com/in/adam-castle-3b57b5243/" title="Adam's LinkedIn" target="_blank">LinkedIn</a></p>
