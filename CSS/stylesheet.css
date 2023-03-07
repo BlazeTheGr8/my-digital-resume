@@ -153,3 +153,8 @@ article ul {
 .description {
   font-style: italic;
 }
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
